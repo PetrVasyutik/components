@@ -14,6 +14,10 @@
           </div>
         </div>
       </section>
+      <section class="home__section">
+        <h2>Photo shutter effect(hover)</h2>
+        <photo-shutter-effect />
+      </section>
     </div>
   </div>
 </template>
@@ -22,12 +26,14 @@
 // @ is an alias to /src
 import MyLoader from "@/components/MyLoader.vue";
 import ButtonWithTimer from "@/components/ButtonWithTimer.vue";
+import PhotoShutterEffect from "@/components/PhotoShutterEffect.vue";
 
 export default {
   name: "HomeView",
   components: {
     MyLoader,
     ButtonWithTimer,
+    PhotoShutterEffect,
   },
 };
 </script>
