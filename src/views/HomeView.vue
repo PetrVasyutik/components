@@ -30,7 +30,12 @@
         <br />
         <glass-morphism />
       </section>
+      <section class="home__section">
+        <h2>OffsetPath</h2>
+        <offset-path />
+      </section>
     </div>
+    <div class="home__footer"></div>
   </div>
 </template>
 
@@ -40,6 +45,7 @@ import MyLoader from "@/components/MyLoader.vue";
 import ButtonWithTimer from "@/components/ButtonWithTimer.vue";
 import PhotoShutterEffect from "@/components/PhotoShutterEffect.vue";
 import GlassMorphism from "@/components/GlassMorphism.vue";
+import OffsetPath from "@/components/OffsetPath.vue";
 
 export default {
   name: "HomeView",
@@ -48,6 +54,7 @@ export default {
     ButtonWithTimer,
     PhotoShutterEffect,
     GlassMorphism,
+    OffsetPath,
   },
 };
 </script>
@@ -74,6 +81,10 @@ export default {
   &__row {
     display: flex;
     gap: 20px;
+  }
+
+  &__footer {
+    height: 400px;
   }
 }
 </style>
