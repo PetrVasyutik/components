@@ -18,6 +18,18 @@
         <h2>Photo shutter effect(hover)</h2>
         <photo-shutter-effect />
       </section>
+      <section class="home__section">
+        <h2>Glassmorphism</h2>
+        <a
+          href="https://markodenic.com/tools/glassmorphism-css-generator/"
+          target="_blank"
+        >
+          https://markodenic.com/tools/glassmorphism-css-generator/
+        </a>
+        <br />
+        <br />
+        <glass-morphism />
+      </section>
     </div>
   </div>
 </template>
@@ -27,6 +39,7 @@
 import MyLoader from "@/components/MyLoader.vue";
 import ButtonWithTimer from "@/components/ButtonWithTimer.vue";
 import PhotoShutterEffect from "@/components/PhotoShutterEffect.vue";
+import GlassMorphism from "@/components/GlassMorphism.vue";
 
 export default {
   name: "HomeView",
@@ -34,6 +47,7 @@ export default {
     MyLoader,
     ButtonWithTimer,
     PhotoShutterEffect,
+    GlassMorphism,
   },
 };
 </script>
