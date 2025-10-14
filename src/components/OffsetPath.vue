@@ -62,7 +62,7 @@
 .offset-path-wave {
   width: 20px;
   height: 20px;
-  background: blue;
+  background: green;
   border-radius: 50%;
   position: absolute;
   offset-path: path("M0,50 Q50,0 100,50 T200,50 T300,50");
@@ -77,7 +77,7 @@
 .offset-path-infinity {
   width: 20px;
   height: 20px;
-  background: blue;
+  background: orange;
   border-radius: 50%;
   position: absolute;
   offset-path: path(
@@ -94,7 +94,7 @@
 .offset-path-triangle {
   width: 20px;
   height: 20px;
-  background: blue;
+  background: aqua;
   border-radius: 50%;
   position: absolute;
   offset-path: path("M150,20 L280,260 L20,260 Z");
@@ -109,7 +109,7 @@
 .offset-path-star {
   width: 20px;
   height: 20px;
-  background: blue;
+  background: lightcoral;
   border-radius: 50%;
   position: absolute;
   offset-path: path(
@@ -126,7 +126,7 @@
 .offset-path-heart {
   width: 20px;
   height: 20px;
-  background: blue;
+  background: lightgreen;
   border-radius: 50%;
   position: absolute;
   offset-path: path(
