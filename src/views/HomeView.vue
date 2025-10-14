@@ -34,6 +34,10 @@
         <h2>OffsetPath</h2>
         <offset-path />
       </section>
+      <section class="home__section">
+        <h2>Endles scrolling (бесконечная прокрутка)</h2>
+        <endless-scrolling />
+      </section>
     </div>
     <div class="home__footer"></div>
   </div>
@@ -46,6 +50,7 @@ import ButtonWithTimer from "@/components/ButtonWithTimer.vue";
 import PhotoShutterEffect from "@/components/PhotoShutterEffect.vue";
 import GlassMorphism from "@/components/GlassMorphism.vue";
 import OffsetPath from "@/components/OffsetPath.vue";
+import EndlessScrolling from "@/components/EndlessScrolling.vue";
 
 export default {
   name: "HomeView",
@@ -55,6 +60,7 @@ export default {
     PhotoShutterEffect,
     GlassMorphism,
     OffsetPath,
+    EndlessScrolling,
   },
 };
 </script>
