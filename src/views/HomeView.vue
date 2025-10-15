@@ -38,6 +38,10 @@
         <h2>Endles scrolling (бесконечная прокрутка)</h2>
         <endless-scrolling />
       </section>
+      <section class="home__section">
+        <h2>Card with an inner glow (Переливающаяся карточка)</h2>
+        <animation-card />
+      </section>
     </div>
     <div class="home__footer"></div>
   </div>
@@ -51,6 +55,7 @@ import PhotoShutterEffect from "@/components/PhotoShutterEffect.vue";
 import GlassMorphism from "@/components/GlassMorphism.vue";
 import OffsetPath from "@/components/OffsetPath.vue";
 import EndlessScrolling from "@/components/EndlessScrolling.vue";
+import AnimationCard from "@/components/AnimationCard.vue";
 
 export default {
   name: "HomeView",
@@ -61,6 +66,7 @@ export default {
     GlassMorphism,
     OffsetPath,
     EndlessScrolling,
+    AnimationCard,
   },
 };
 </script>
@@ -82,6 +88,8 @@ export default {
   &__section {
     margin-top: 50px;
     width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
   }
 
   &__row {

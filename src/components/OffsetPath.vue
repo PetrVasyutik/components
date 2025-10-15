@@ -27,6 +27,7 @@
   width: 100%;
   height: 200px;
   position: relative;
+  border-bottom: 1px dashed blueviolet;
 }
 
 .offset-path {
